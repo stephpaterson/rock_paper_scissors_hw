@@ -1,0 +1,117 @@
+.main {
+    background-color: cornflowerblue;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Bungee Shade', cursive;
+}
+
+nav {
+    flex: 95%;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: flex-end;
+    align-content:space-between;
+    list-style: none;
+    line-height: 2;
+    background-color: rgb(64, 122, 232);
+    border: solid 2px white;
+}
+
+nav>ul>li {
+    border-left: solid 2px white;
+    padding: 2px 20px 2px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.rules {
+    background-color: coral;
+    padding: 20px;
+    border-radius: 10px;
+    border: cornsilk solid 1px;
+}
+
+.win {
+    background-color: darkviolet;
+    padding: 20px;
+    border-radius: 10px;
+    border: cornsilk solid 1px;
+}
+
+.game {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.p {
+    flex: 40%;
+    background-color: coral;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+    border: rgb(223, 83, 33) solid 3px;
+}
+
+
+.game>h2 {
+    flex: 90%;
+    text-align: center;
+}
+
+.winner {
+    flex: 90%;
+    background-color: darkviolet;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: rgb(96, 1, 137) solid 3px;
+    font-size: large;
+}
+
+.f_container {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    background-color: coral;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    line-height: 2;
+    font-size: large;
+    border: rgb(223, 83, 33) solid 3px;
+    width: 50%;
+    align-content: space-around;
+}
+
+.f_container>ul {
+    list-style: none;
+}
+
+
+.submit {
+  background-color: white;
+  padding: 5px 10px; 
+  border-radius: 5px;
+  border: solid 2px rgb(223, 83, 33);
+  font-size: medium;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}

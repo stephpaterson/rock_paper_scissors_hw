@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <body class='main'>
+        <div class="container">
+            
+            <div class = "game">
+                <p class= "p" ><b>{{ player_1 }} chose:</b> {{ input_1 }}</p>
+                <p class= "p"><b>{{ player_2 }} chose:</b> {{ input_2 }}</p>
+                <h2>And the winner is...</h2>
+                <p class= "winner">{{result}}</p>
+            </div>
+        </div>
+    </body>
+{% endblock %}

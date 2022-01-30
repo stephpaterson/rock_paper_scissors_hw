@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<body class='main'>
+    <div class="rules">
+        <h2>How to play</h2>
+        <p>Rock, paper, scissors is a two player game. 
+        Each player will choose either rock, paper or scissors. </p>
+        <p>
+            Player one starts by entering their choice above in the url. 
+            Player two adds their choice second. It should look something like this:
+        </p>
+        <img src="static/rock_paper_scissors.png" alt="how to play">
+        <p>Hit enter to see who wins!</p>
+        <div class="win">
+            <p>How to win</p>
+            <ul>
+                <li>
+                Rock beats scissors. 
+                </li>
+                <li>
+                Scissors beats paper. 
+                </li>
+                <li>
+                Paper beats rock. (I know it makes no sense...)
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+{% endblock %}

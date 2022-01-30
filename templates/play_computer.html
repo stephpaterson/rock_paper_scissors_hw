@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<body class='main'>
+    <h2>Play the computer!</h2>
+    <div>
+        <form action="/play" method="post" class='f_container'>
+            <ul>
+                <li>
+                    <label for="player_name">Player Name:</label>
+                    <input type="text" name="player_name" id="player_name">
+                </li>
+                <li>
+                    <label for="choice">Choice:</label>
+                    <select name="choice" id="choice">
+                        <option value="rock">Rock</option>
+                        <option value="scissors">Scissors</option>
+                        <option value="paper">Paper</option>
+                    </select>
+                </li>
+                <li>
+                    <input class='submit' type="submit" value="Play">
+                </li>
+            </ul>
+        </form>
+    </div>
+</body>
+
+{% endblock %}
